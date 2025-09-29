@@ -1,0 +1,105 @@
+/* css/estilo.css */
+/* Este é nosso arquivo de estilos */
+
+/* Estilo geral da página (deixa a página bonita) */
+body {
+    font-family: Arial, sans-serif; /* Fonte fácil de ler */
+    max-width: 800px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza na página */
+    padding: 20px; /* Espaço interno */
+    background-color: #f4f4f4; /* Cor de fundo cinza claro */
+}
+
+/* Estilo do título principal */
+h1 {
+    color: #2c3e50; /* Cor azul escuro */
+    text-align: center; /* Centraliza o texto */
+    border-bottom: 3px solid #3498db; /* Linha azul abaixo */
+    padding-bottom: 10px; /* Espaço entre texto e linha */
+}
+
+/* Estilo do formulário */
+form {
+    background: white; /* Fundo branco */
+    padding: 20px; /* Espaço interno */
+    border-radius: 8px; /* Cantos arredondados */
+    margin-bottom: 20px; /* Espaço abaixo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo das Labels */
+label {
+    display: block; /* Faz cada label ficar em linha única */
+    margin-top: 10px; /* Espaço acima */
+    font-weight: bold; /* Texto em negrito */
+    color: #2c3e50; /* Cor azul escuro */
+}
+
+/* Estilo dos campos de input */
+input {
+    width: 100%; /* Largura total */
+    padding: 8px; /* Espaço interno */
+    margin-top: 5px; /* Espaço acima */
+    box-sizing: border-box; /* Inclui padding na largura */
+    border: 1px solid #ddd; /* Borda cinza */
+    border-radius: 4px; /* Cantos levemente arredondados */
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #3498db; /* Cor azul */
+    color: white; /* Texto branco */
+    padding: 10px 15px; /* Espaço interno */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor vira mãozinha */
+    margin-top: 15px; /* Espaço acima */
+    margin-right: 5px; /* Espaço à direita */
+}
+
+/* Efeito quando passa o mouse sobre o botão */
+button:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+}
+
+/* Botão Cancelar com cor diferente */
+#btnCancelar {
+    background-color: #e74c3c; /* Vermelho */
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%; /* Largura total */
+    border-collapse: collapse; /* Junta as bordas das células */
+    background: white; /* Fundo branco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 20px; /* Espaço acima */
+}
+
+/* Estilo das células da tabela */
+th,
+td {
+    border: 1px solid #ddd; /* Borda cinza */
+    padding: 10px; /* Espaço interno */
+    text-align: left; /* Texto alinhado à esquerda */
+}
+
+/* Estilo do cabeçalho da tabela */
+th {
+    background-color: #2c3e50; /* Azul muito escuro */
+    color: white; /* Texto branco */
+}
+
+/* Cores alternadas para as linhas */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cinza bem clarinho */
+}
+
+/* Botões de ação na tabela */
+.btn-editar {
+    background-color: #f39c12; /* Laranja */
+}
+
+.btn-excluir {
+    background-color: #c0392b; /* Vermelho */
+}
