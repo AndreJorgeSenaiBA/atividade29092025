@@ -129,7 +129,7 @@ function exibirTabelaLivros(livros) {
                 <td>${livro.autor}</td>
                 <td>${livro.genero}</td>
                 <td>R$ ${parseFloat(livro.preco).toFixed(2).replace('.', ',')}</td>
-                <td>${livro.quantidade}</td>
+                <td>${livro.quantidade_estoque}</td>
                 <td>
                     <button class="btn-editar" data-id="${livro.id}">Editar</button>
                     <button class="btn-excluir" data-id="${livro.id}">Excluir</button>

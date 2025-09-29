@@ -16,7 +16,7 @@ $quantidade = $conn->real_escape_string($_POST['quantidade']);
 
 // 2. Prepara o comando SQL de UPDATE (Atualizar)
 // Usa prepared statements para segurança
-$sql = "UPDATE livros SET titulo = ?, autor = ?, genero = ?, preco = ?, quantidade = ? WHERE id = ?";
+$sql = "UPDATE livros SET titulo = ?, autor = ?, genero = ?, preco = ?, quantidade_estoque = ? WHERE id = ?";
 
 $stmt = $conn->prepare($sql);
 // "sssddi" -> s: string, d: double (para preço), i: integer (para quantidade e id)
